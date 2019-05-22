@@ -1,0 +1,32 @@
+body{
+font-family: 'Kurale', serif;
+background: -webkit-linear-gradient(#dadaef, #8e9198);
+background: -o-linear-gradient(#dadaef, #8e9198);
+background: -moz-linear-gradient(#dadaef, #8e9198);
+background: linear-gradient(#dadaef, #8e9198);
+margin: 0;
+}
+.text{
+margin: 0 30px 20px 30px;
+}
+.text h1{
+text-align: center;
+  margin: 0;
+}
+.text p{
+font-size: 20px;
+text-align: justify;
+text-indent: 1.5em;
+line-height: 30px;
+margin: 0;
+}
+.tab{
+font-size: 20px;
+border: 1px solid grey;
+margin: auto;
+width: 1160px;
+padding: 2px;
+}	
+.tab td {
+text-align: center; 
+}

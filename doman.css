@@ -1,0 +1,50 @@
+
+body {
+	font: 16px/1.4 'Kurale', serif;
+	margin: 0;
+	background: #333;
+}
+
+html{
+  height: 100%;
+  }
+
+.wrap div{
+  width: 80%;
+  margin: 2em auto;
+  padding: 3em 1em;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+  background:linear-gradient(90deg,
+    #105B63 20%,
+    #FFFAD5 20%, #FFFAD5 40%,
+    #FFD34E 40%, #FFD34E 60%,
+    #DB9E36 60%, #DB9E36 80%,
+    #BD4932 80%
+    ) 0 0 / 100% .4em no-repeat,
+    linear-gradient(-90deg,
+    #105B63 20%,
+    #FFFAD5 20%, #FFFAD5 40%,
+    #FFD34E 40%, #FFD34E 60%,
+    #DB9E36 60%, #DB9E36 80%,
+    #BD4932 80%
+    ) 0 100% / 100% .4em no-repeat;
+  background-color: white;
+}
+
+.tex h1 {
+	text-align:center;
+}
+.tex p{
+color: #000000;
+font-size: 20px;
+text-align:justify;
+text-indent: 1.5em;
+}
+.im{
+top: 0;
+left: 0;
+width: 90%;
+height: 90%;
+text-align: center;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="2.css">
+	<style type="text/css">
+		h1 {color: black;
+		} 
+		h2 {color: blue;
+		} 
+   		.text {
+   		text-align: left;
+   		}
+   		.fig {
+    		text-align: left;
+  		}
+	</style>
+</head>
+<body>
+	<div class="mainblock">
+	    <div class="mylayer1"></div>
+	    <div class="mylayer2"></div>  
+	    <div class="mylayer3"></div>
+	    <div class="mylayer4"></div>
+	    <h1 class="text">Аліна Шевченко</h1>
+	<h2><a href="Завдання1.html">Завдання 1</a></h2>
+	<h2><a href="Завдання2.html">Завдання 2</a></h2>
+	<h2><a href="Завдання 4.html">Завдання 4</a></h2>
+	<h2><a href="Практика01.html">Практика 1</a></h2>
+	</div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+body{
+margin: 0;
+}
+.hed{
+	font-family: 'Maven Pro', sans-serif;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center;
+	text-shadow: -1px -1px #000,
+               0 1px 0 #444;
+  color: #222;
+  transition: all 1s;
+}
+
+.hed:hover {
+ text-shadow: -1px -1px #000,
+              0 1px 0 #444;
+ color: #1A1A1A;
+}
+.text{
+font-family: 'Kurale', serif;
+font-size: 20px;
+text-align: justify;
+text-indent: 1.5em;
+line-height: 30px; 
+padding: 5px 20px;
+}
+
+.bd{
+  width: 60px;
+  background: -webkit-linear-gradient(126deg, #232927 4%,   transparent 4%) -70px 43px,
+            -webkit-linear-gradient( 54deg, #232927 4%,   transparent 4%) 30px 43px,
+            -webkit-linear-gradient( 18deg, #e3d7bf 8.5%, transparent 8.5%) 30px 43px,
+            -webkit-linear-gradient(162deg, #e3d7bf 8.5%, transparent 8.5%) -70px 43px,
+            -webkit-linear-gradient(234deg, #e3d7bf 7.5%, transparent 7.5%) -70px 23px,
+            -webkit-linear-gradient(-54deg, #e3d7bf 7.5%, transparent 7.5%) 30px 23px,
+            -webkit-linear-gradient(126deg, #232927 4%,   transparent 4%) -20px 93px,
+            -webkit-linear-gradient( 54deg, #232927 4%,   transparent 4%) 80px 93px,
+            -webkit-linear-gradient( 18deg, #e3d7bf 8.5%, transparent 8.5%) 80px 93px,
+            -webkit-linear-gradient(162deg, #e3d7bf 8.5%, transparent 8.5%) -20px 93px,
+            -webkit-linear-gradient(234deg, #e3d7bf 7.5%, transparent 7.5%) -20px 73px,
+            -webkit-linear-gradient(-54deg, #e3d7bf 7.5%, transparent 7.5%) 80px 73px;
+background: -moz-linear-gradient(126deg, #232927 4%,   transparent 4%) -70px 43px,
+            -moz-linear-gradient( 54deg, #232927 4%,   transparent 4%) 30px 43px,
+            -moz-linear-gradient( 18deg, #e3d7bf 8.5%, transparent 8.5%) 30px 43px,
+            -moz-linear-gradient(162deg, #e3d7bf 8.5%, transparent 8.5%) -70px 43px,
+            -moz-linear-gradient(234deg, #e3d7bf 7.5%, transparent 7.5%) -70px 23px,
+            -moz-linear-gradient(-54deg, #e3d7bf 7.5%, transparent 7.5%) 30px 23px,
+            -moz-linear-gradient(126deg, #232927 4%,   transparent 4%) -20px 93px,
+            -moz-linear-gradient( 54deg, #232927 4%,   transparent 4%) 80px 93px,
+            -moz-linear-gradient( 18deg, #e3d7bf 8.5%, transparent 8.5%) 80px 93px,
+            -moz-linear-gradient(162deg, #e3d7bf 8.5%, transparent 8.5%) -20px 93px,
+            -moz-linear-gradient(234deg, #e3d7bf 7.5%, transparent 7.5%) -20px 73px,
+            -moz-linear-gradient(-54deg, #e3d7bf 7.5%, transparent 7.5%) 80px 73px;
+background: linear-gradient(324deg, #232927 4%,   transparent 4%) -70px 43px,
+            linear-gradient( 36deg, #232927 4%,   transparent 4%) 30px 43px,
+            linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 30px 43px,
+            linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -70px 43px,
+            linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -70px 23px,
+            linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 30px 23px,
+            linear-gradient(324deg, #232927 4%,   transparent 4%) -20px 93px,
+            linear-gradient( 36deg, #232927 4%,   transparent 4%) 80px 93px,
+            linear-gradient( 72deg, #e3d7bf 8.5%, transparent 8.5%) 80px 93px,
+            linear-gradient(288deg, #e3d7bf 8.5%, transparent 8.5%) -20px 93px,
+            linear-gradient(216deg, #e3d7bf 7.5%, transparent 7.5%) -20px 73px,
+            linear-gradient(144deg, #e3d7bf 7.5%, transparent 7.5%) 80px 73px;
+background-color: #232927;
+background-size: 100px 100px;
+}
+/*Цитата*/
+blockquote {
+margin: 0;
+background: #FFF4ED;
+padding: 40px;
+color: #3F484D;
+position: relative;
+font-family: 'Kurale', serif;
+text-align: center;
+}
+blockquote:before, blockquote:after {
+font-size: 45px;
+color: #822222;
+position: absolute;
+height: 2px;
+left: 40px;
+right: 40px;
+line-height: .5;
+background: linear-gradient(to right, #822222 45%, transparent 45%, transparent), linear-gradient(to right, transparent, transparent 55%, #822222 55%);
+font-family: serif;
+}
+blockquote:before {
+content: "\201C";
+top: 30px;
+}
+blockquote:after {
+content: "\201D";
+bottom: 30px;
+}
+blockquote p {
+font-size: 20px;
+}
+blockquote footer {
+margin-bottom: 1em;
+}
+blockquote cite {
+font-style: normal;
+}
+
+/*Картинки*/
+.im{
+text-align: center;
+}
+.im2{
+overflow:hidden;
+float: left; 
+padding-right:10px;
+vertical-align:text-top;
+margin: 0;
+} 

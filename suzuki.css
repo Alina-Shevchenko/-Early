@@ -1,0 +1,74 @@
+
+html{
+  height: 100%;
+}
+body{
+margin: 0;
+  background: linear-gradient( 90deg,
+      rgba(255, 225, 132, .7) 50%, rgba(255,255,255, 0) 50%),
+    linear-gradient( 90deg,
+      rgba(32, 113, 120, .3) 50%, rgba(255,255,255, 0) 50%),
+    linear-gradient( 90deg,
+      rgba(255, 150, 102, .3) 50%, rgba(255,255,255, 0) 50%),
+    linear-gradient( 90deg,
+      rgba(23, 76, 79, .1) 50%, rgba(255,255,255, 0) 50%);
+  background-size: 7em 7em, 5em 5em, 3em 3em, 1em 1em;
+  background-color: #F5E9BE;
+  font: 10px/1.4 'El Messiri', sans-serif;
+  }
+
+.text{
+  padding: 20px;
+}
+.text h1{
+  font-family: 'Rubik One', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  background: repeating-linear-gradient(#191970, #191970 2px, #556B2F 2px, #556B2F 3px);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #183D58;
+  display: table;
+  margin: 20px auto;    
+}
+.text p{
+  font-size: 18px;
+  text-indent: 1.5em;
+  margin: 0;
+  text-align:justify;
+  line-height: 30px;
+}
+
+.raydok{
+  color: #8B0000;
+  font-weight: 600;
+}
+
+.white {
+ padding: 10px;
+  margin: 10px 20px;
+  background: rgb(255, 255, 255, 0.6); 
+  border: 1px dashed #312a22;
+}
+
+.zebra {
+  list-style: none;
+  border-left: 10px solid #FFB6C1;
+  padding: 0;
+  font-size: 18px;
+  text-indent: 1.5em;
+  margin: 0;
+}
+.zebra ul{
+margin: 0;
+}
+.zebra li {padding: 10px;}
+.zebra li:nth-child(odd) {background: #E1F1FF;}
+.zebra li:nth-child(even) {background: white;}
+
+.im{
+overflow:hidden;
+float: left; 
+padding-right:10px;
+vertical-align:text-top;
+} 

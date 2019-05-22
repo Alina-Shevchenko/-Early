@@ -1,0 +1,61 @@
+body{
+  margin: 0;
+}
+.sll{
+	margin: 0;
+	height: 1920px;
+	padding: 0px;
+	position: relative;
+	
+	background: 
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+  #fff;
+  background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+.sllY{
+	position: absolute;
+	width: 1270px;
+	top: 20px; 
+  	left: 20px;
+  	padding: 10px;
+  	background: rgb(168, 171, 167, 0.9);
+}
+.head{
+text-align:center;
+font-weight: normal;
+font-family: 'Kurale', serif;
+}
+.tx{
+color: #000000;
+text-align:justify;
+font-size: 18px;
+text-indent: 1.5em;
+font-family: 'Kurale', serif;
+padding: 0 20px 10px 20px;
+}
+.tx p{
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+.tx h3{
+	text-align: center;
+	color: midnightblue;
+	margin-bottom: 0em;
+}
+.vi{
+font-weight: 600;
+color: maroon;
+}
+.leftimg {
+    float:left; 
+    margin: 7px 7px 7px 0; 
+ }
+.rightimg  {
+   float: right; 
+   margin: 7px 0 7px 7px; 
+}

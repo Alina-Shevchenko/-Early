@@ -1,0 +1,56 @@
+body {font-family: 'Kurale', serif;
+	margin: 0;
+}
+table {
+    width: 100%;
+}
+#left{background: blue;}
+#right{background: blue;}
+#center{
+margin:0 140px 0 140px;
+}
+#head{
+	text-align: center;
+	font-size: 1.5em;
+	margin: 0;
+}
+#head h1{
+	text-align: center;
+	font-size: 2em;
+	margin: 10px;
+  background: linear-gradient(135deg, #000000 10%, #008080 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 0;
+  border: 3px solid transparent;
+  border-image: linear-gradient(135deg, #12BCB0 20%, #2F4F4F 70%);
+  border-image-slice: 1;
+
+}
+#head h2{
+	text-align: center;
+	margin: 0px;
+	background: linear-gradient(135deg, #E0FFFF 10%, #008080 80%);
+}
+#text{
+	text-align: justify;
+	line-height: 1.5;
+	text-indent: 1.5em;
+	font-size: 18px;
+	margin: 0;
+}
+#text p{
+	margin: 0;
+}
+.col{
+	color: maroon;
+}
+
+.im{
+top: 0;
+left: 0;
+/*width: 100%;
+height: 100%;*/
+text-align: center;
+margin:0;
+}

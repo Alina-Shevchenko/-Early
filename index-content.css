@@ -1,0 +1,39 @@
+.content {
+	margin-bottom: 30px;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 20px;
+	padding: 2px;
+}
+.banners td {
+	width: 25%;
+	/*border: 1px solid black; */
+	border-collapse: collapse;
+	vertical-align: top;
+}
+.banners td img{
+	/*vertical-align: top;*/
+	border-collapse: collapse;
+}
+.banner {
+	width: 100%;
+	min-width: 100px;
+	min-height: 200px;
+	font-size: 2rem;
+	margin: 0 0 30px 0;
+	/*justify-content: center;
+	align-items: center;*/
+}
+.posts {
+	margin: 0;
+	vertical-align: top;
+	border-collapse: collapse;
+}
+.post {
+	font-size: 15px;
+
+}
+.post-title{
+	font-size: 24px;
+}

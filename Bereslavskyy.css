@@ -1,0 +1,89 @@
+body{
+	font-family: 'Radley', serif;
+	background: peachpuff linear-gradient(90deg,
+    rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.4) 50%
+    ) center center / 2em;
+    margin: 0;
+}
+.tekst {
+margin: 10px 30px 30px 30px;
+}
+.tekst h1{
+  font-family: 'Sofia', cursive;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+  letter-spacing: 0.2em;
+  border: 1px solid;
+  border-image: linear-gradient(20deg, #f92056 38%, #00deff 65%);
+  border-image-slice: 1;
+}
+.tekst p{
+	font-family: 'Radley', serif;
+	font-size: 20px;
+	text-align: justify;
+	text-indent: 1.5em;
+	line-height: 30px;
+	margin: 0;
+}
+.tekst h2{
+	font-family: 'Radley', serif;
+	text-align: center;
+	text-indent: 1.5em;
+	line-height: 30px;
+	margin: 0;
+}
+
+.sp {
+margin-left: 0;
+list-style: none;
+counter-reset: li;
+font-size: 20px;
+text-align: justify;
+line-height: 30px;
+margin: 0;
+}
+.sp li {
+position: relative;
+margin-bottom: 1.5em;
+border: 3px solid #CD5C5C;
+padding: 0.6em;
+border-radius: 4px;
+background: #FEFEFE;
+color: #000000;
+font-family: 'Radley', serif;
+list-style: none;
+margin: 10px;
+}
+.sp li:before {
+position: absolute;
+top: -0.7em;
+padding-left: 0.4em;
+padding-right: 0.4em;
+font-size: 16px;
+font-weight: bold;
+color: #B22222;
+background: #FEFEFE;
+border-radius: 50%;
+counter-increment: li;
+content: counter(li);
+}
+
+.first  {
+list-style: none;
+padding: 0;
+}
+.first ol{
+list-style: none;
+font-family: 'Radley', serif;
+}
+.first li {
+padding: 10px 30px;
+background: linear-gradient(to left, #f8ab8d 0%, white, #f8ab8d);
+border-bottom: 1px solid grey;
+color: #000000;
+font-size: 20px;
+box-shadow: 0 5px 5px 0 rgba(0,0,0, .2);
+margin-bottom: 5px;
+}
+.first li:last-child {border-bottom: none;}
